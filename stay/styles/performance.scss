@@ -1,0 +1,20 @@
+@import "null.scss";
+@import "default.scss";
+
+.performance__container {
+    padding: 0 100px;
+    padding-bottom: 75px;
+    background-color: #000;
+}
+
+.performance__title {
+    @extend %title;
+    color: $light;
+}
+
+.performance__card-container {
+    @extend %cards;
+    .card {
+        background-color: #FFFDD0;
+    }
+}

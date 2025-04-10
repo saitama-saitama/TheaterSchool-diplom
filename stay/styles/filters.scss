@@ -1,0 +1,49 @@
+@import "default.scss";
+
+.filters-container {
+    position: relative;
+    padding-bottom: 30px;
+    background-color: #000;
+}
+
+.filters-title {
+    color: $light;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: $light;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.filters-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .filters-input {
+        width: 200px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .filters-slider {
+        width: 415px;
+        margin-bottom: 35px;
+    }
+    .filters-left-checkbox-container {
+        margin-top: 30px;
+    }
+}
+
+.filters-checkbox {
+    background-color: #fff;
+}
+
+.filters-btn {
+    position: absolute;
+    color: #df2528;
+    font-size: 20px;
+    bottom: 0;
+    padding-bottom: 30px;
+}

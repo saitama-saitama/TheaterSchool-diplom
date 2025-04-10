@@ -1,0 +1,46 @@
+%title {
+    font-size: 64px;
+    padding: 75px 0;
+    text-align: center;
+}
+
+%text {
+    font-size: 24px;
+    line-height: 130%;
+}
+
+%cards {
+    display: grid;
+    grid-template: auto / repeat(4, auto);
+    row-gap: 30px;
+    justify-content: space-between;
+    .card {
+        display: grid;
+        grid-auto-flow: row;
+        gap: 25px;
+        padding: 25px;
+        width: 100%;
+    }
+    .img {
+        margin: 0 auto;
+    }
+    .text {
+        font-size: 24px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    @media (max-width: 1700px) {
+        grid-template-columns: auto / repeat(3, auto); 
+    }
+
+    @media (max-width: 900px) {
+        grid-template-columns: auto / repeat(2, auto); 
+    }
+
+    @media (max-width: 600px) {
+        grid-template-columns: auto / repeat(1, auto); 
+    }
+}
+$light: #fff;
+$dark: #000;
